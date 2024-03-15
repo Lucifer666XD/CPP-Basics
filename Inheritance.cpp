@@ -5,8 +5,8 @@ class father
 {
     int age;
     public:
-    string surname="Ali";
-    string name="Akbar";
+    string surname="cage";
+    string name="casie";
 };
 class son1:public father
 {
