@@ -1,9 +1,9 @@
-//PROTECTED
+//GLOBAL CLASS
+
 #include<iostream>
 using namespace std;
 class a
 {
-    protected:
     int x;
     public:
     void input()
@@ -11,6 +11,12 @@ class a
         cout<<"Enter the value of x";
         cin>>x;
     }
+    void output()
+    {
+        cout<<"The value of x is:"<<x;
+
+    }
+    
 };
 class b:public a
     {
@@ -23,7 +29,6 @@ class b:public a
         }    
         void out()
         {
-            cout<<"The value of x is:"<<x;
             cout<<"The value of y is:"<<y;
         }
         
@@ -33,8 +38,7 @@ int main()
 {
     b obj;
     obj.input();
-    obj.in();
-    obj.out();
+    obj.output();
     
     return 0;
 }
