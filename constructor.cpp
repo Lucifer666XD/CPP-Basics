@@ -17,9 +17,8 @@ class a
     }
 
 };
-int main()
+void main()
 {
     a obj=a();
     obj.display();
-    return 0;
 }
