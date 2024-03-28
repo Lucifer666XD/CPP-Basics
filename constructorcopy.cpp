@@ -26,7 +26,7 @@ class a
 int main()
 {
     a obj=a(50);
-    a obj2=obj;
+    a obj2(obj);
     obj.output();
     obj2.output();
     return 0;
